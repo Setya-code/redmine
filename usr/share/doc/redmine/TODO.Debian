@@ -1,0 +1,13 @@
+TODO
+====
+
+* fix script/dbconsole (also a rails issue, accepted by rails maintainer, see #552615) so it can be called with :
+sudo -u www-data ./script/dbconsole -p -y "/etc/redmine/default/database.yml" production
+
+* in general, check that failures that happened with rails 2.2 don't with rails 2.3 :
+	delivery_method: :async_smtp
+	It has been reported [0] that this method does not work when used by a rake task (e.g.
+	in a crontab). Simply use :smtp method in that case.
+	[0]
+	https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=570402
+

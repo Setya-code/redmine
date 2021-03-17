@@ -1,0 +1,115 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://www.redmine.org
+Files-Excluded: public/javascripts/Chart.bundle.min.js
+                public/javascripts/jquery-1.11.1-ui-1.11.0-ujs-4.3.1.js
+
+Files: *
+Copyright: 2006-2017 Jean-Philippe Lang <jp_lang@yahoo.fr>
+License: GPL-2
+
+Files: debian/*
+Copyright:
+ 2010-2012 Jérémy Lal <kapouer@melix.org>
+ 2009 Richard Hurt <rnhurt@kangaroobox.com>
+License: GPL-2
+
+Files: app/models/repository/git.rb
+Copyright:
+ 2006-2007 Jean-Philippe Lang <jp_lang@yahoo.fr>
+ 2007 Patrick Aljord <patcito@ŋmail.com>
+License: GPL-2+
+
+Files: app/helpers/sort_helper.rb
+Copyright:
+ 2009 Jean-Philippe Lang <jp_lang@yahoo.fr>
+ March 2005 Stuart Rackham <srackham@methods.co.nz>
+License: Expat
+
+Files: lib/redmine/scm/adapters/mercurial/redminehelper.py
+Copyright:
+ 2010 Alessio Franceschelli (alefranz.net)
+ 2010-2011 Yuya Nishihara <yuya@tcha.org>
+License: GPL-2+
+
+Files: lib/redmine/wiki_formatting/textile/redcloth3.rb
+Copyright: 2004 why the lucky stiff (and his puppet organizations.)
+License: BSD-3-clause
+
+Files: lib/diff.rb
+Copyright: 2001 Lars Christensen <larsch@cs.auc.dk>
+License: GPL-2+
+
+Files: public/javascripts/jstoolbar/*
+Copyright: 2005 Nicolas Martin & Olivier Meunier and contributors
+License: GPL-2+
+
+Files:
+ config/locales/et.yml
+ public/javascripts/jstoolbar/lang/jstoolbar-et.js
+Copyright: 2012 Kaitseministeerium
+License: GPL-2+
+
+Files: lib/plugins/acts_as_tree/*
+Copyright: 2007 David Heinemeier Hansson
+License: Expat
+
+Files: lib/plugins/gravatar/*
+Copyright: 2007 West Arete Computing, Inc.
+License: Expat
+
+Files: lib/plugins/open_id_authentication/*
+Copyright: 2007 David Heinemeier Hansson
+License: Expat
+
+License: GPL-2
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in '/usr/share/common-licenses/GPL-2'.
+
+License: GPL-2+
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 or later can be found in `/usr/share/common-licenses/GPL'.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice, this
+ list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation
+ and/or other materials provided with the distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its contributors
+ may be used to endorse or promote products derived from this software without
+ specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE

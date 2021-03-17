@@ -1,0 +1,17 @@
+# parameters common to all instances
+environment: production
+chdir: /usr/share/redmine/
+user: www-data
+group: www-data
+
+# parameters that depend on the redmine instance
+x_debian_siteid: default
+pid: /tmp/redmine-default-thin-1.pid
+log: /var/log/redmine/default/thin.log
+port: 3000
+# might use a unix socket instead :
+# socket: /tmp/redmine-default-thin-1.socket
+
+# read https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=602077 before using this
+# servers: 2
+# a workaround is to copy this file and change pid name and port number (or socket name)
